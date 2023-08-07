@@ -6,3 +6,25 @@
   align-items: center;
   padding: 1rem;
 }
+.main {
+  width: 93rem;
+  height: 43rem;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidenav {
+  width: calc(93rem - 67.5%);
+  height: 43rem;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+.conversations {
+  width: calc(93rem-32.5%);
+  background-color: blue;
+  height: 43rem;
+  display: flex;
+  flex-direction: column;
+}
