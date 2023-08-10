@@ -1,8 +1,32 @@
 .container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width:100%;
   height: 36rem;
   background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.income{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 60%;
+  min-width: 20%;
+  background-color: white;
+  align-self: flex-start;
+  margin: 1rem;
+}
+
+.outcome{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 60%;
+  min-width: 20%;
+  background-color: white;
+  align-self: flex-end;
+  margin: 1rem;
 }

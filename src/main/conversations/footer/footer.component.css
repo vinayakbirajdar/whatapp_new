@@ -1,0 +1,51 @@
+.container{
+
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background-color: #f0f2f5;
+  width: 100%;
+}
+.smily{
+  height: 3rem;
+  width: 4rem;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+
+}
+
+.plus{
+  height: 3rem;
+  width: 4rem;
+  padding: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.message{
+  width: 46rem;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  padding-left:2rem ;
+  
+}
+.message > input{
+  border-color: transparent;
+  font-size: 1.2rem;
+  background-color:white;
+  border-radius: 10px;
+}
+
+.message > input:focus{
+  outline: none;
+}
+
+.speaker{
+  height: 3rem;
+  width: 3rem;
+  padding: 0.1rem;
+}
