@@ -68,7 +68,7 @@
   border-radius: 50%;
 }
 
-/* .container:hover{
-  background-color: rgb(184, 176, 176);
+.container:hover{
+  background-color: rgba(180, 175, 175, 0);
   cursor: pointer;
-} */
+}
