@@ -69,6 +69,6 @@
 }
 
 .container:hover{
-  background-color: rgba(180, 175, 175, 0);
+  background-color: rgba(248, 15, 15, 0);
   cursor: pointer;
 }
